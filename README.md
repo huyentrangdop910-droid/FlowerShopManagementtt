@@ -18,6 +18,6 @@
 2.  Mở dự án bằng **Android Studio**.
 3.  Đợi Gradle đồng bộ (Sync) xong, sau đó nhấn nút **Run** (Chạy) trên máy ảo hoặc thiết bị thật.
 
-## 👤 Thông tin tác giả
+## Thông tin tác giả
 * **Vai trò:** Lập trình viên Android (Android Developer)
 * **Quy mô nhóm:** 3 thành viên
