@@ -4,8 +4,8 @@
 ## Tính năng nổi bật (Features)
 * **Quản lý sản phẩm:** Thêm, Sửa, Xóa và cập nhật thông tin hoa (CRUD).
 * **Hỗ trợ Offline:** Sử dụng **Room Database (SQLite)** để lưu trữ dữ liệu cục bộ an toàn.
-* **Quản lý hoá đơn:**
-* **Quản lý thông kê:**
+* **Quản lý hoá đơn**
+* **Quản lý thông kê**
 
 ## Công nghệ sử dụng (Tech Stack)
 * **Ngôn ngữ:** Java
