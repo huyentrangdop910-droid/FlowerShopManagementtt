@@ -1,0 +1,136 @@
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="4dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+
+        <!-- Ảnh hoa -->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_img"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="8dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="0dp">
+
+            <ImageView
+                android:id="@+id/imgFlower"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/transparent"
+                android:importantForAccessibility="no"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_photo" />
+
+        </androidx.cardview.widget.CardView>
+
+        <!-- Thông tin hoa -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="6dp"
+            android:layout_toEndOf="@id/card_img"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="2dp"
+                android:text="Tên hoa"
+                android:textColor="?android:attr/textColorPrimary"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/txtPriceIn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="2dp"
+                android:text="Giá nhập: 0"
+                android:textColor="?android:attr/textColorPrimary"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/txtPriceOut"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Giá bán: 0"
+                android:textColor="?android:attr/textColorPrimary"
+                tools:ignore="HardcodedText" />
+        </LinearLayout>
+
+        <!-- Nút Delete -->
+        <ImageButton
+            android:id="@+id/btnDelete"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="-5dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="@string/dep_delete"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_cancel"
+            app:tint="?android:attr/textColorPrimary"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <!-- Layout tăng giảm số lượng -->
+        <LinearLayout
+            android:id="@+id/layoutQuantity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btnDelete"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:importantForAccessibility="no"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/btnMinus"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:importantForAccessibility="no"
+                android:scaleType="centerInside"
+                android:src="@drawable/ic_minus"
+                app:tint="?android:attr/textColorPrimary"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <!-- EditText thay vì TextView -->
+            <EditText
+                android:id="@+id/edtQuantity"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:importantForAutofill="no"
+                android:inputType="number"
+                android:text="1"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText,LabelFor,TouchTargetSizeCheck" />
+
+            <ImageButton
+                android:id="@+id/btnPlus"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:importantForAccessibility="no"
+                android:padding="5dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/ic_add"
+                app:tint="?android:attr/textColorPrimary"
+                tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+        </LinearLayout>
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

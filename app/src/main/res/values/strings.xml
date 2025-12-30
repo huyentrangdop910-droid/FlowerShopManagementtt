@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Quản Lí Bán Hoa</string>
+    <string name="title_add_flower">Thêm Hoa</string>
+    <string name="title_array_flower">Danh Sách Hoa</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_add_invoice">Thêm Hóa Đơn</string>
+    <string name="title_history_invoice">Lịch Sử Hóa Đơn</string>
+    <string name="title_report">Báo Cáo</string>
+    <string name="action_set_image">Chọn ảnh</string>
+    <string name="hint_name_flower">Nhập tên hoa</string>
+    <string name="name_flower">Tên hoa:</string>
+    <string name="hint_price">Nhập giá bán(k)</string>
+    <string name="price">Giá bán(k/bó):</string>
+    <string name="hint_price_in">Nhập giá nhập(k)</string>
+    <string name="price_in">Giá nhập(k/bó):</string>
+    <string name="action_save_flower">Lưu hoa</string>
+    <string name="title_edit_flower">Sửa Hoa</string>
+    <string name="title_invoice">Lịch Sử Hóa Đơn</string>
+    <string name="hint_search_flower">Tìm hoa...</string>
+    <string name="dep_delete">Xóa</string>
+    <string name="action_save_change">Chỉnh sửa</string>
+    <string name="action_add_flower_invoice">Thêm hoa vào hóa đơn</string>
+    <string name="action_save_invoice">Lưu hóa đơn</string>
+    <string name="label_name_customer">Tên khách hàng:</string>
+    <string name="label_sdt">Số điện thoại:</string>
+    <string name="label_address">Địa chỉ:</string>
+    <string name="label_sale">Giảm giá(k):</string>
+    <string name="action_clear_selection">Bỏ chọn tất cả</string>
+    <string name="action_delete_selection">Xóa</string>
+    <string name="label_date">Ngày:</string>
+    <string name="hint_search_invoice">Tìm hóa đơn...</string>
+    <string name="label_note">Ghi chú:</string>
+    <string name="label_paymen_method">Phương thức thanh toán:</string>
+    <string name="action_crash">Tiền mặt</string>
+    <string name="action_transfer">Chuyển khoản</string>
+    <string name="action_wait_ship">Chưa giao</string>
+    <string name="action_complete_ship">Đã giao</string>
+    <string name="status_due_today">Hạn giao hôm nay</string>
+    <string name="status_over_due">Quá hạn giao</string>
+    <string name="status_not_due_yet">Chưa đến ngày giao</string>
+    <string name="title_edit_invoice">Sửa Hóa Đơn</string>
+    <string name="title_excepted_invoice">Hóa Đơn Dự Kiến</string>
+    <string name="title_report_invoice">Báo Cáo Thống Kê</string>
+</resources>
